@@ -11,3 +11,13 @@ const findMedian = (arr) => {
 };
 
 console.log(findMedian([1, 3, 5, 6, 14, 8, 8, 6]));
+
+const findSameStr = (arr) => {
+  let givenStr = arr[0];
+  givenStr = givenStr.split(" ");
+  if (givenStr[0].toLowerCase() === arr[1].toLowerCase()) return true;
+  else {
+    return false;
+  }
+  console.log(givenStr);
+};

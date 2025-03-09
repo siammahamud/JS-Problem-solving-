@@ -1,4 +1,4 @@
-/write a function to check if a given string starts with a specific string//
+// /write a function to check if a given string starts with a specific string//
 const findSameStr = (arr) => {
   let givenStr = arr[0];
   givenStr = givenStr.split(" ");
